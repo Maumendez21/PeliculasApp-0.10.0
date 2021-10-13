@@ -35,7 +35,7 @@ export const DetailScreen = ( { route, navigation }: Props ) => {
             </View>
 
             <View style={ styles.marginContainer }>
-                <Text style={ styles.subTitle }>{ movie.original_title }</Text>
+                <Text style={ styles.subTitle }>{ movie.original_title + '2' }</Text>
                 <Text style={ styles.title }>{ movie.title }</Text>
             </View>
 
